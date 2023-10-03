@@ -1,6 +1,6 @@
 import csv
 import os
-
+ 
 with open("annotations_1.csv", "w", newline='') as csv_file:
     writer = csv.writer(csv_file)
     main_folder = "C:\\Users\\Acer\\Documents\\py_lab_1\\dataset"
