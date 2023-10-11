@@ -1,8 +1,6 @@
 from task_4 import get_next
 import csv
 
-file = "annotations_2.csv"
-
 class Iterator:
     def __init__(self, limit, csv_file, class_mark):
         self.limit = limit
@@ -16,7 +14,8 @@ class Iterator:
             return get_next(self.class_mark, self.reader)
         else:
             raise StopIteration
-        
-a = Iterator(10, file, "good")
-for i in range(10):
-    print(next(a))
+
+#file = "annotations_2.csv"        
+#a = Iterator(10, file, "good")
+#for i in range(10):
+ #   print(next(a))
